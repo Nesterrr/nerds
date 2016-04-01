@@ -68,7 +68,7 @@ body {
 	width: 880px;
 
     margin: 0 auto;
-
+    margin-left: 50%px;
     padding-left:   10px;
     padding-right:  10px;
     padding-top:    0;
@@ -380,10 +380,10 @@ header {
 }
 
 .friends {
+	float: right;
 	width: 560px;
-
-	margin-top:  80px;
-	margin-left: 43%;/*  Исправить! либо только % либо только пикселы!!!*/
+	
+	  
 }
 
 .what-we-do h2 {
@@ -481,21 +481,70 @@ header {
 
 .friends h2 {
 	font-size: 36px;
-	line-height: 36px;
+	line-height: 2px;
+	font-weight: 500;
 }
 
 .friends span {
 	font-size: 16px;
-	line-height: 22px;
+	line-height: 18px;
 
 	color: #283136;
+	padding-top: 0;
 }
 
 .bgclr {
 	width: 1200px;
 
-	margin-left: auto;
+	margin-left: 360px;
 	margin-right: auto;
 
 	background-color: #eeeeee;
+}
+.footer-socials {
+	float:left;
+	font-size: 0;
+	width: 300px;
+}
+.ivk::before{
+	display: inline-block;
+	margin-right: 30px;
+	margin-left: -4px;
+	margin-top: 60px;
+	content: "\76";
+	font-family: "symbols-nerds";
+	font-size: 24px;
+
+	border: 18px solid #e1e1e1;
+	line-height: 24px;
+	border-radius: 36px;
+	background-color: #e1e1e1;
+	color: #ffffff;
+}
+
+.ifacebook::before{
+	display: inline-block;
+	margin-right: 28px;
+	margin-top: 75px;
+	content: "\66";
+	font-family: "symbols-nerds";
+	font-size: 24px;
+	line-height: 14px;
+	border: 24px solid #e1e1e1;
+	border-radius: 46px;
+	background-color: #e1e1e1;
+	color: #ffffff;
+}
+
+.iinsta::before{
+	display: inline-block;
+	margin-top: 76px;
+	content: "📷";
+	font-family: "symbols-nerds";
+	font-size: 24px;
+	line-height: 24px;
+	border: 21px solid #e1e1e1;
+	border-radius: 46px;
+	background-color: #e1e1e1;
+	color: #ffffff;
 }
